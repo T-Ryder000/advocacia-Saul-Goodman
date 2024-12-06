@@ -4,352 +4,244 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  <title>L'Éclat de Lupin</title>
+  <title>Advocacia Saul Goodman</title>
+  <link rel="icon" href="./images/saulgoodman2.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-50 text-gray-800">
 
-    <!-- Header -->
-    <header class="bg-black p-4">
-      <div class="container mx-auto flex flex-wrap justify-between items-center md:px-6 py-4 max-w-screen-xl" style="max-width: 1100px;">
-        <!-- Logo e Título -->
-        <div class="flex items-center w-full md:w-auto">
-          <img src="https://i.pinimg.com/736x/df/bf/94/dfbf942b5909c98cf7b5af21dfe75d6c.jpg" alt="Logo" class="h-12 mr-4">
-          <h1 class="text-2xl font-bold text-yellow-400">L'Éclat de Lupin</h1>
-        </div>
-    
-        <div class="flex justify-between md:justify-normal gap-4 w-full md:w-auto">
-          <!-- Barra de Pesquisa -->
-          <div class="flex-grow w-full md:w-auto mt-4 md:mt-0">
-            <input type="text" placeholder="Busque por joias..." class="w-full px-4 py-2 rounded bg-gray-800 text-yellow-400 placeholder-gold outline-none focus:ring-2 focus:ring-yellow-400 transition duration-300 ease-in-out">
-          </div>
-    
-          <!-- Links de Carrinho e Perfil -->
-          <div class="flex space-x-6 md:w-auto mt-4 md:mt-0 justify-end md:justify-start p-1">
-            <a href="#" class="text-yellow-400 flex items-center justify-center hover:text-yellow-500 transition duration-300 ease-in-out">
-              <i class="fa-solid fa-cart-shopping text-gray-400 hover:text-yellow-400 transition duration-300 ease-in-out text-xl"></i> <!-- Aumentando os ícones -->
-            </a>
-            <a href="#" class="text-yellow-400 flex items-center justify-center hover:text-yellow-500 transition duration-300 ease-in-out">
-              <i class="fa-solid fa-user text-gray-400 hover:text-yellow-400 transition duration-300 ease-in-out text-xl"></i> <!-- Aumentando os ícones -->
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
-    
-  
-  
 
-    <!-- Banner -->
-    <section class="bg-black flex flex-col justify-center" style="min-height: 600px;">
-      <div class="flex flex-col lg:flex-row px-6 py-10 items-center gap-8 mx-auto " style="max-width: 1100px;">
-        <div class="flex flex-col space-y-4 ">
-            <h2 class="text-lg text-white font-bold uppercase">Peças Exclusivas</h2>
-            <h2 class="text-5xl font-bold text-yellow-400 uppercase">Descubra a Joia Perfeita</h2>
-            <p class="text-2xl text-white">Para aqueles que sabem apreciar<br> o brilho... e o enigma.</p>
-            <button class="px-6 py-2 bg-yellow-400 text-black font-semibold rounded shadow hover:bg-yellow-600" style="max-width: 200px;">Explore Agora</button>
-        </div>
-        <div class="grid grid-cols-2 gap-4 mt-5">
-            <img src="https://i.pinimg.com/236x/14/65/2f/14652fbcc124a24fe9e0dc67d3cb3cdf.jpg">
-            <img src="https://i.pinimg.com/236x/1c/c5/46/1cc5468a4ffdc8f009db0f5227dd2998.jpg" class="mt-28" alt="">
-            <!-- <img src="./images/lupin4.jpg" class="" alt=""> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Categorias -->
-    <section class="px-6 py-12 bg-gray-50">
-      <div class="mx-auto max-w-5xl">
-        <!-- Título com Linha de Divisão -->
-  
-        <div class="flex items-center justify-center mb-6">
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-          <h2 class="text-3xl font-bold text-center mx-4 uppercase">Categorias</h2>
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-        </div>
-    
-        <!-- Cards de Categorias -->
-        <div class="grid grid-cols-2 justify-center lg:grid-cols-3 xl:grid-cols-3 gap-8 mt-20">
-          <!-- Card de Categoria -->
-          <div class="text-center transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-            <img src="https://i.pinimg.com/236x/ba/87/ce/ba87ced19344715ca8da11ba8c707618.jpg" alt="Anéis" class="object-cover mx-auto rounded-full transition-transform duration-300 ease-in-out hover:scale-110">
-            <div class="p-6">
-              <h3 class="text-2xl font-semibold text-gray-700 mb-4">Anéis</h3>
-              <p class="text-sm text-gray-500">Elegância para todas as ocasiões.</p>
-            </div>
-          </div>
-          <div class="text-center transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-            <img src="https://i.pinimg.com/236x/7e/fb/03/7efb03b4eec6ef1b305e04e80f92466c.jpg" alt="Colares" class="object-cover mx-auto rounded-full transition-transform duration-300 ease-in-out hover:scale-110">
-            <div class="p-6">
-              <h3 class="text-2xl font-semibold text-gray-700 mb-4">Colares</h3>
-              <p class="text-sm text-gray-500">O toque final de sofisticação.</p>
-            </div>
-          </div>
-          <div class="text-center transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-            <img src="https://i.pinimg.com/236x/f0/08/e0/f008e01f4c9aecc55ee57b7325e24e82.jpg" alt="Braceletes" class="object-cover mx-auto rounded-full transition-transform duration-300 ease-in-out hover:scale-110">
-            <div class="p-6">
-              <h3 class="text-2xl font-semibold text-gray-700 mb-4">Braceletes</h3>
-              <p class="text-sm text-gray-500">Estilo e charme no seu pulso.</p>
-            </div>
+    <header class="py-8 " style="background-color: #f2e234;">
+        <div class="mx-auto flex flex-wrap items-center justify-between px-4 max-w-6xl">
+          <!-- Logo e Título -->
+          <div class="flex items-center mb-4 sm:mb-0">
+            <img src="images/logo.png" alt="Logo" class="w-12 h-12 mr-3 bg-yellow-500 rounded-full p-2">
+            <h1 class="text-lg font-bold">Advocacia Saul Goodman</h1>
           </div>
       
-          <div class="text-center transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-            <img src="https://i.pinimg.com/236x/06/1c/63/061c63138bfac9a34645a031df0adb9d.jpg" alt="Penduricalhos" class="object-cover mx-auto rounded-full transition-transform duration-300 ease-in-out hover:scale-110">
-            <div class="p-6">
-              <h3 class="text-2xl font-semibold text-gray-700 mb-4">Penduricalhos</h3>
-              <p class="text-sm text-gray-500">Decoração criativa para seu estilo.</p>
-            </div>
-          </div>
-          
-          <div class="text-center transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-            <img src="https://i.pinimg.com/236x/21/5a/16/215a1656620837a95abaab0cf67e26f1.jpg" alt="Brincos" class="object-cover mx-auto rounded-full transition-transform duration-300 ease-in-out hover:scale-110">
-            <div class="p-6">
-              <h3 class="text-2xl font-semibold text-gray-700 mb-4">Brincos</h3>
-              <p class="text-sm text-gray-500">Beleza discreta, toque refinado.</p>
-            </div>
-          </div>
-        
-          <div class="text-center transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-            <img src="https://i.pinimg.com/236x/af/8f/94/af8f949e60609bc28cef7850c946acd4.jpg" alt="Correntes" class="object-cover mx-auto rounded-full transition-transform duration-300 ease-in-out hover:scale-110">
-            <div class="p-6">
-              <h3 class="text-2xl font-semibold text-gray-700 mb-4">Correntes</h3>
-              <p class="text-sm text-gray-500">Elegância contínua e sofisticada.</p>
-            </div>
-          </div>
+          <!-- Botão de menu para telas menores -->
+          <button class="sm:hidden block text-black hover:text-white focus:outline-none " id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+      
+          <!-- Navegação -->
+          <nav class="hidden sm:flex w-full sm:w-auto" id="menu">
+            <ul class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+              <li><a href="#" class="hover:text-white">Início</a></li>
+              <li><a href="#" class="hover:text-white">Sobre</a></li>
+              <li><a href="#" class="hover:text-white">Serviços</a></li>
+              <li><a href="#" class="hover:text-white">Contato</a></li>
+            </ul>
+          </nav>
         </div>
-      </div>
-    </section>
-    
-    
-    
-    
-    <!-- Novidades -->
-    <section class="px-6 py-10 bg-gray-50">
-      <div class="mx-auto" style="max-width: 1100px;">
-        <div class="flex items-center justify-center mb-6">
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-          <h2 class="text-3xl font-bold text-center mx-4 uppercase">Novidades</h2>
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-        </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-24">
-          <!-- Card 1 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/8f/a5/a6/8fa5a639c53d22508a5b490674e2d2d5.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Collier de Jade Impérial (Colar de Jade Imperial)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 9.800,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-    
-          <!-- Card 2 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/d9/71/97/d97197fbb012007c2aaa4e88c9d37683.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Bague d'Émeraude Impériale (Anel de Esmeralda Imperial)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 5.200,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-    
-          <!-- Card 3 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/ea/d1/7c/ead17c33c1848c1e7cf9d2beecb6129f.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Collier de Perles Naturelles (Colar de Pérolas Naturais)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 8.000,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-    
-          <!-- Card 4 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/1b/be/1c/1bbe1cca4180db0fe3ef7a2e5d12389b.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Bracelet en Or Rose (Pulseira de Ouro Rosé)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 3.700,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-    
-          <!-- Card 5 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/d0/23/5f/d0235f7a8f0b1fa38ab4bbf8952d002d.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Boucles d'Oreilles en Saphir Bleu (Brincos de Safira Azul)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 6.500,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-    
-          <!-- Card 6 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/90/ed/b7/90edb7f263e8378a64c90d196025d2d5.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Pendentif en Diamant Solitaire (Pingente de Diamante Solitário)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 12.000,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-    
-          <!-- Card 7 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/6f/65/3e/6f653e08cac0063b491a1744fd090bd4.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Diadème en Cristaux Swarovski (Tiara de Cristais Swarovski)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 2.800,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-    
-          <!-- Card 8 -->
-          <div class="p-4 flex flex-col justify-between bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-            <img src="https://i.pinimg.com/236x/75/16/87/751687ce663ab149303678b2edf49915.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center">Choker en Rubis Élégant (Choker de Rubi Elegante)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center">R$ 7.500,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    
+      </header>
+      
 
-    <!-- Sobre -->
-    <section class="px-6 py-10 bg-white">
-      <div class="mx-auto text-center" style="max-width: 1100px;">
-        
-        <div class="flex items-center justify-center mb-6">
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-          <h2 class="text-3xl font-bold text-center mx-4 uppercase">Sobre Nós</h2>
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-        </div>
-        <p class="mt-12 text-2xl text-gray-700 mx-auto" style="max-width: 700px;">"L'Éclat de Lupin" é uma joalheria exclusiva que combina o esplendor de joias refinadas com o encanto do mistério. Cada peça é inspirada por aventuras enigmáticas e foi projetada para capturar a essência da ousadia e do charme. Descubra a coleção que celebra o espírito do cavalheiro ladrão mais astuto do mundo.</p>
-        <img src="https://i.pinimg.com/236x/cb/d9/2b/cbd92bcb9e09607cbfd7c67de159ada4.jpg" alt="Logo" class="mx-auto mt-12 h-32">
-      </div>
-    </section>
 
-    <!-- Mais Vendidos -->
-    <section class="px-6 py-10 bg-gray-100">
-      <div class="mx-auto" style="max-width: 1100px;">
-        <div class="flex items-center justify-center mb-6">
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-          <h2 class="text-3xl font-bold text-center mx-4 uppercase">Mais Vendidos</h2>
-          <div class="flex-grow h-0.5 bg-gray-400"></div>
-        </div>
-    
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-24">
-          <!-- Card 9 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/60/66/a6/6066a643f80023a142c570aced79ec36.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Broche en Platine et Diamants (Broche de Platina e Diamantes)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 15.000,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-          
-          <!-- Card 10 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/dc/7a/da/dc7ada26f3c47c31801eb9a81f69c297.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Cuff en Or Jaune et Diamants (Pulseira de Ouro Amarelo e Diamantes)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 18.200,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-          
-          <!-- Card 11 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/65/76/15/6576156ec142f58d4ec2df0a8bf6a1f1.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Écaille en Opale (Broche em Opala)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 4.500,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-          
-          <!-- Card 12 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/2b/35/ca/2b35cae9d1a54b9083cdc3bf9153896d.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Anneau en Rubis et Diamants (Anel de Rubi e Diamantes)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 11.900,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-          
-          <!-- Card 13 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/5d/35/40/5d35405e8a68d094fb8a377e2408aa76.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Bague de Diamant Vintage (Anel de Diamante Vintage)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 14.500,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-          
-          <!-- Card 14 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/af/bf/67/afbf672c776d3f15e5b350d2520481d3.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Pendentif en Saphir Bleu (Pingente de Safira Azul)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 6.200,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-          
-          <!-- Card 15 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/b3/3c/a2/b33ca28751688d3ed38d08ffb71015bd.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Chandelier en Rubis et Diamants (Brincos Chandelier de Rubi e Diamantes)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 9.800,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-          
-          <!-- Card 16 -->
-          <div class="p-4 flex flex-col justify-between bg-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 ease-in-out">
-            <img src="https://i.pinimg.com/236x/af/f6/7b/aff67b3868cb091e9e4faee9e708346a.jpg" alt="Joia Nova" class="w-full h-60 object-cover transition-all duration-300 ease-in-out hover:opacity-80">
-            <h1 class="mt-2 min-h-[3rem] text-center text-lg font-semibold transition-all duration-300 ease-in-out hover:text-yellow-400">Collier en Perles et Diamants (Colar de Pérolas e Diamantes)</h1>
-            <h3 class="mt-1 text-lg font-semibold text-center transition-all duration-300 ease-in-out hover:text-yellow-400">R$ 8.000,00</h3>
-            <button class="rounded mt-3 uppercase p-2 text-center w-full bg-yellow-400 text-black font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-black">Saiba Mais</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-
-    <!-- Descubra sua joia -->
-    <section class="px-6 py-10 bg-gray-50 flex flex-col justify-center" style="min-height: 500px;">
-      <div class="mx-auto" style="max-width: 1100px;">
-        <div class="flex flex-col md:flex-row px-6 py-10 items-center gap-20 mx-auto justify-evenly " style="max-width: 1100px;">
-         
-          <img class="w-72" src="https://i.pinimg.com/236x/31/b3/8b/31b38b56f926c8e05c8ef067e2e0b6ef.jpg" alt="">
-          <div class="flex flex-col space-y-4" style="max-width: 400px;">
-            <h2 class="text-4xl uppercase font-bold">Que joia de Lupin combina com você?</h2>
-            <p class="text-lg">Se esta com duvidas sobre qual joia se encaixa com o seu perfil, clique no botao abaixo e descubra agora!</p>
+    <section class="text-gray-950 pt-16" style="background-color: #f2e234;">
+        <div class="container mx-auto flex flex-col md:flex-row items-center px-4 md:px-8 max-w-6xl">
+          <!-- Coluna de Texto -->
+          <div class="md:w-1/2 md:text-left pb-8 md:pb-0">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
+              Problemas legais?<br>Não chame qualquer um. Chame Saul Goodman.
+            </h2>
+            <p class="text-lg sm:text-xl mb-6 leading-relaxed">
+              Defendendo seus direitos com estratégia e determinação.<br>
+              Nenhum caso é pequeno demais ou grande demais para a gente.
+            </p>
             <br>
-            <button class="px-6 py-2 bg-yellow-400 text-black font-semibold rounded shadow hover:bg-yellow-600" style="max-width: 200px;">Saiba Mais</button>
+            <a href="#" class="px-6 py-3 bg-red-600 text-white font-bold rounded-full hover:bg-red-500">
+              Clique aqui
+            </a>
+          </div>
+      
+          <!-- Coluna de Imagem -->
+          <div class="md:w-1/2 flex justify-center items-center">
+            <img src="images/saulgoodman1.jpeg" alt="Banner" class="w-full h-auto  object-cover rounded-lg">
+          </div>
         </div>
-        </div> 
-      </div>
+      </section>
+      
+
+    <!-- Section 1 -->
+    <section class="pt-16 md:pt-5 bg-black">
+        <div class="mx-auto flex flex-col-reverse md:flex-row  md:px-0">
+          <!-- Coluna de Imagem -->
+          <div class="mb-8 md:mb-0 md:mr-0 md:ml-0">
+            <img 
+              src="images/saulgoodman2.png" 
+              alt="Imagem" 
+              class=" h-auto max-h-[600px] object-cover rounded-lg shadow-md"
+            >
+          </div>
+      
+          <!-- Coluna de Texto -->
+          <div class="md:w-1/2 text-center md:text-left px-4 md:px-8 pt-16 pb-16">
+            <h3 class="text-3xl sm:text-5xl font-bold text-red-600 mb-6">
+              Por que somos a sua melhor escolha?
+            </h3>
+            <p class="text-lg sm:text-2xl text-white leading-relaxed">
+              Com anos de experiência em diversas áreas do Direito, nossa equipe transforma 
+              problemas complexos em soluções simples e eficazes. Inspirados em grandes defensores, 
+              como aqueles que você vê na TV, nossa missão é proteger o que importa para você – seja sua 
+              liberdade, patrimônio ou direitos.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      
+    <!-- Section 2 -->
+    <section class="py-16 bg-black">
+        <div class="container mx-auto" style="max-width: 1100px;">
+            <h3 class="text-3xl sm:text-5xl font-bold text-red-600 mb-6 text-center">Áreas de Atuação</h3>
+            <br>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0 px-4">
+                    <p class="text-lg sm:text-2xl text-white leading-relaxed">Nenhum caso é pequeno demais. Não importa o desafio legal, estamos prontos para
+                        lutar por você. Veja como podemos ajudar:</p>
+                    <img src="images/saulgoodman3.png" alt="Áreas de Atuação" class="mt-6 rounded mx-auto md:m-0" style="max-height: 400px;">
+                </div>
+                <div class="md:w-1/2 mt-10 px-4">
+                    <ul class="list-disc pl-6 space-y-4 text-yellow-400 ">
+                        <li class="text-xl"><strong class="text-2xl">Direito Criminal:</strong> <br>Defesa em processos criminais com estratégias
+                            implacáveis.</li>
+                        <li class="text-xl"><strong class="text-2xl">Direito Civil:</strong> <br>Resolução de disputas com foco em resultados rápidos e
+                            eficazes.</li>
+                        <li class="text-xl"><strong class="text-2xl">Direito Empresarial:</strong> <br>Proteção jurídica para sua empresa crescer com
+                            segurança.</li>
+                        <li class="text-xl"><strong class="text-2xl">Direito Familiar:</strong> <br>Cuidamos dos seus interesses em questões sensíveis.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-black text-white px-6 py-12">
-      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-10" style="max-width: 1100px;">
-          <!-- Sobre a Loja -->
+    <!-- Section 3 -->
+    <section class="py-16 bg-black" >
+        <div class="container mx-auto" style="max-width: 1100px;">
+            <h3 class="text-3xl sm:text-5xl font-bold text-red-600 mb-6 text-center">Depoimentos dos Clientes</h3>
+            <br>
+            <p class="text-lg sm:text-2xl text-white leading-relaxed text-center">Eles chamaram e foram defendidos<br> com excelência!
+                Veja o que nossos clientes têm<br> a dizer sobre o nosso trabalho.
+            </p>
+            <br>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6 mt-10">
+                <!-- Depoimentos podem ser adicionados aqui -->
+                <div class="flex flex-col items-center p-4 rounded text-center">
+                    <img src="https://i.pinimg.com/236x/c6/6c/66/c66c66b2f2ed5629481fe8992cb44d3b.jpg" class="rounded-full" alt="">
+                    <br>
+                    <p class="text-lg italic max-w-md mx-auto font-bold text-yellow-400">
+                        “Incrível! Resolvi meu caso de maneira rápida e eficiente. Recomendo a todos!”
+                    </p>
+                </div>
+                <div class="flex flex-col items-center p-4 rounded text-center" >
+                    <img src="https://i.pinimg.com/236x/b7/76/a7/b776a7801a57a22a00b8859f6e2c746c.jpg" class="rounded-full"  alt="">
+                    <br>
+                    <p class="text-lg italic max-w-md mx-auto font-bold text-yellow-400">
+                        “Não sabia o que fazer, mas eles cuidaram de tudo. Recomendo sem dúvidas!”
+                    </p>
+                </div>
+                <div class="flex flex-col items-center p-4 rounded text-center" >
+                    <img src="https://i.pinimg.com/236x/25/76/7c/25767cdc21295451ca12b91e4df7de10.jpg" class="rounded-full" alt="">
+                    <br>
+                    <p class="text-lg italic max-w-md mx-auto font-bold text-yellow-400">
+                        “Profissionalismo e estratégia que fizeram toda a diferença no meu caso.”
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="py-16 bg-black text-white" >
+        <div class="container mx-auto flex items-center justify-between flex-col md:flex-row" style="max-width: 1100px;">
+            <div>
+                <h3 class="text-3xl sm:text-5xl font-bold text-red-600 mb-6 text-center md:text-left">Está esperando o quê?</h3>
+                <p class="text-lg sm:text-2xl text-white leading-relaxed text-center md:text-left">Problemas legais não esperam.
+                    Fale conosco<br> agora e resolva sua situação com rapidez<br>
+                    e eficiência.
+                </p>
+                <br>
+                <div  class="flex flex-col items-center md:block mb-10">
+                    <a href="#" class="px-8 py-4 bg-red-600 text-white font-bold rounded-full hover:bg-red-500">Fale com a
+                        gente
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8">
+                <img src="images/saulgoodman4.jpeg" alt="Imagem" class="mx-auto rounded shadow-lg" style="max-height: 500px;">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-gray-200 pt-16 pb-4  px-4">
+      <div class="flex flex-col items-center">
+          <img src="images/logo.png" alt="Logo" class="w-20 h-20 mr-3  bg-yellow-400 rounded-full p-2">
+          <br>
+          <h1 class="text-2xl font-bold">Advocacia Saul Goodman</h1>
+      </div>
+      <br>
+      <br>
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:text-left" style="max-width: 1100px;">
+          <!-- Coluna 1: Sobre nós -->
           <div>
-              <h3 class="text-lg font-bold mb-4">Sobre L'Éclat de Lupin</h3>
-              <p class="text-sm text-gray-400 leading-relaxed" style="max-width: 300px;">
-                  Inspirada pela elegância e mistério da série Lupin, nossa loja oferece joias únicas e exclusivas que capturam o espírito da arte de viver com estilo.
+              <h4 class="text-xl font-bold mb-4">Sobre Nós</h4>
+              <p class="text-sm">
+                  Advocacia Saul Goodman oferece suporte jurídico completo com anos de experiência em diversas áreas do Direito. 
+                  Nossa missão é garantir justiça com eficiência.
               </p>
           </div>
-
-          <!-- Contato -->
+  
+          <!-- Coluna 2: Links Rápidos -->
           <div>
-              <h3 class="text-lg font-bold mb-4">Contato</h3>
-              <ul class="space-y-3 text-sm text-gray-400">
-                  <li>Email: <a href="mailto:contato@leclatdelupin.com" class="hover:text-gold transition-colors">contato@leclatdelupin.com</a></li>
-                  <li>Telefone: <a href="tel:+552199999999" class="hover:text-gold transition-colors">+55 21 9999-9999</a></li>
-                  <li>Endereço: Rua do Mistério, 123, Paris</li>
+            <h4 class="text-xl font-bold mb-4">Siga-nos</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="hover:text-yellow-300" aria-label="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M22 12a10 10 0 1 0-11.6 9.92v-7H8v-3h2.4V9.2c0-2.36 1.4-3.68 3.54-3.68.8 0 1.66.14 1.66.14v1.84h-.94c-.92 0-1.2.57-1.2 1.16v1.4H16l-.4 3h-2.6v7A10 10 0 0 0 22 12z" />
+                </svg>
+              </a>
+              <a href="#" class="hover:text-yellow-300" aria-label="Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 19c8.84 0 13.68-7.35 13.68-13.68 0-.2 0-.39-.01-.59A9.83 9.83 0 0 0 24 2.56a9.6 9.6 0 0 1-2.72.75A4.8 4.8 0 0 0 23.34.34a9.52 9.52 0 0 1-3.06 1.17 4.77 4.77 0 0 0-8.13 4.34A13.54 13.54 0 0 1 1.64.88 4.76 4.76 0 0 0 3.1 6.3a4.74 4.74 0 0 1-2.16-.6v.06a4.77 4.77 0 0 0 3.83 4.68 4.77 4.77 0 0 1-2.15.08 4.78 4.78 0 0 0 4.45 3.31A9.57 9.57 0 0 1 0 17.25 13.5 13.5 0 0 0 8 19" />
+                </svg>
+              </a>
+              <a href="#" class="hover:text-yellow-300" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10.5 2h.5c.55 0 1 .45 1 1v.5c0 .55-.45 1-1 1h-.5c-.55 0-1-.45-1-1V5c0-.55.45-1 1-1zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" />
+                </svg>
+              </a>
+              <a href="#" class="hover:text-yellow-300" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20 0H4C1.79 0 0 1.79 0 4v16c0 2.21 1.79 4 4 4h16c2.21 0 4-1.79 4-4V4c0-2.21-1.79-4-4-4zM7 20H4v-9h3v9zm-1.5-10.3c-.97 0-1.75-.78-1.75-1.75S4.53 6.2 5.5 6.2s1.75.78 1.75 1.75S6.47 9.7 5.5 9.7zM20 20h-3v-4.5c0-1.1-.4-2-1.4-2-.8 0-1.3.53-1.5 1.03-.08.2-.1.47-.1.75V20h-3v-9h3v1.26c.4-.62 1-1.26 2.3-1.26 1.6 0 2.7 1.04 2.7 3.26V20z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Coluna 3: Contato -->
+          <div>
+              <h4 class="text-xl font-bold mb-4">Contato</h4>
+              <ul class="space-y-2">
+                  <li><span class="font-semibold">Telefone:</span> +55 (11) 1234-5678</li>
+                  <li><span class="font-semibold">Email:</span> saulgoodman@advocacia.com</li>
+                  <li><span class="font-semibold">Endereço:</span> Av. dos Direitos, 123 - São Paulo, SP</li>
               </ul>
           </div>
-          <!-- Redes Sociais -->
-          <div>
-              <h3 class="text-lg font-bold mb-4">Siga-nos</h3>
-              <div class="flex space-x-4">
-                  <a href="#" class="text-gray-400 hover:text-gold transition-colors">
-                      <i class="fa-brands fa-instagram h-6 w-6"></i>
-                  </a>
-                  <a href="#" class="text-gray-400 hover:text-gold transition-colors">
-                    <i class="fa-brands fa-facebook-f h-6 w-6"></i>
-                  </a>
-                  <a href="#" class="text-gray-400 hover:text-gold transition-colors">
-                    <i class="fa-brands fa-twitter h-6 w-6"></i>
-                  </a>
-              </div>
-          </div>
       </div>
-      <!-- Direitos Autorais -->
-      <div class="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500">
-          &copy; 2024 L'Éclat de Lupin. Todos os direitos reservados.
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center">
+          <p class="text-sm">&copy; 2024 Advocacia Saul Goodman. Todos os direitos reservados.</p>
       </div>
   </footer>
   
-  
+
+  <script>
+    // Alternar menu em telas menores
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
 </body>
 </html>
